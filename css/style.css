@@ -15,7 +15,7 @@ html, body{
 }
 /*--header start here--*/
 .header{
-	      background:url(../images/3face.jpg)no-repeat;
+  	   background:url(../images/HeaderBG.jpg)no-repeat;
 	     min-height:590px;
 	     background-size:cover;
 	     -webkit-background-size:cover;
@@ -33,6 +33,7 @@ html, body{
 }
 .logo img {
 	margin-top: 10px;
+  width: 150px;
 }
 .logo-w img {
 	margin-top: 1.8em;
@@ -56,11 +57,11 @@ span.menu img{
 	         margin: 10px 10px 0px 0px;
 }
 .header-right ul li a{
-	color: #FFFEFE;
+	color: #333333;
 	font-weight: bold;
 } 
 .header-right ul li a:hover,.header-right ul li a.active{
-   color:#AB9797;
+   color:#08122c;
    text-decoration:none;
    transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -529,6 +530,7 @@ span.menu img{
 	        display:block;
 	        cursor:pointer;
 	        float:right;
+          color: #333333;
 	        padding-top:1em;
 }
 .clear{
